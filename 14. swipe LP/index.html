@@ -1,0 +1,526 @@
+<!--[if lte IE 8]>
+<script type="text/javascript" charset="utf-8">
+	$(function(){
+		alert('This page is best viewed in Internet Explorer 9 and above.');
+	});
+</script>
+
+<![endif]-->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+<style type="text/css" media="screen">
+.block .inner {
+    margin-left: 0;
+    margin-right: 0;
+}
+body, div.full-width {min-width:1px;}
+* {line-height:normal;font-family: 'Raleway', sans-serif !important;}
+.hidden {display:none;}
+.clear {clear:both;display:block;overflow:;visibility:;width:0;height:0}
+html,body,.wrap {height:100%;width:100%;padding:0;margin:0;font-family:verdana,sans-serif;}
+
+
+#kb_nav {background:none;position:fixed;width:100%;color:#fff;}
+#kb_nav_cont {padding:0 0px;width:100%;background:#eeeff1;-webkit-box-shadow: 0 0 7px 1px #000;box-shadow: 0 0 7px 1px #dadada;border-bottom:1px solid #dadada;border:1px solid #dedede;left:0;top:0;min-width:700px;}
+#kb_logo {font-size:19px;color:#333;width:273px;height:75px;display:block;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_logo.png) no-repeat center center;text-indent:-9999px;background-size:68%;float:left;}
+
+#kb_nav_cont a {color:#fff;text-decoration:none;outline:0;}
+#kb_nav_cont a:active{background:#83c704;}
+.kb_nav_item {float:right;padding:1% 1%;font-size:16px;}
+.kb_container {float:left;height:100%;background:#fff;width:100%;position:relative;}
+
+#kb_slide_1 {padding:50px 5px 0px 0;background:url(http://www.epocrates.com/sites/default/files/images/computera.jpg);background-size:cover;background-attachment:fixed;}
+#kb_slide_1 h2 {font-size:45px;line-height:65px;margin-bottom:10px;color:#333;text-align:center;font-family:verdana,sans-serif;font-weight:normal;color:#145993;margin-top:30px;}
+#kb_slide_1 p {font-size:19px;line-height:26px;width:80%;margin:30px auto;color:#fff;font-weight:100;letter-spacing:1px;text-align:center;}
+#kb_hero_img {background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_hero.png);background-size:cover;width:280px;height:280px;margin:50px auto;-webkit-border-radius: 52px;border-radius:52px;}
+a.cta {text-align:center;display:block;margin:0 auto;background:#145993;padding:30px 10px;width:380px;-webkit-border-radius: 12px;border-radius:12px;font-size:28px;color:#fff;text-shadow:none;text-decoration:none;}
+a.cta:hover {color:#fff;}
+
+.headline {font-size:30px;text-align:left;color:#81869B;background:#f6f6f6;width:100%;padding:20px 0 20px 40px;margin:40px auto;-webkit-border-radius: 12px;border-radius:12px;font-weight:bold;}
+
+.kb_section{width:80%;margin:30px auto;}
+
+.instructions {font-size:22px;padding:30px 20px;color:#555B6D;}
+.instructions strong {color:#333;}
+.ob_epoc_img1 {width:551px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_img1.png) no-repeat center center;margin:0 auto;}
+.ob_epoc_img2 {width:567px;height:311px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_img2.png) no-repeat center center;margin:0 auto;}
+.ob_epoc_img3 {width:480px;height:375px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_img3.png) no-repeat center center;margin:0 auto;}
+
+.ob_epoc_img4 {width:480px;height:375px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_img4.png) no-repeat center center;margin:0 auto;}
+.ob_epoc_img5 {width:551px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_img5.png) no-repeat center center;margin:0 auto;}
+
+.ob_epoc_img6 {width:476px;height:354px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_img6.png) no-repeat center center;margin:0 auto;}
+
+.ob_epoc_img7 {width:507px;height:389px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_img7.png) no-repeat center center;margin:0 auto;}
+.ob_epoc_img8 {width:528px;height:491px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_img8.png) no-repeat center center;margin:0 auto;}
+.ob_epoc_img8b {width:528px;height:491px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_img8b.png) no-repeat center center;margin:0 auto;}
+
+.ob_epoc_img9 {width:383px;height:422px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_img9.png) no-repeat center center;margin:0 auto;}
+.ob_epoc_img10 {width:250px;height:307px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_img10.png) no-repeat center center;margin:0 auto;}
+
+#footer {width:100%;}
+
+#OB_swipe {width:720px;height:314px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_swipe.png) no-repeat bottom center;margin:0 auto;opacity:0.2;text-align:center;font-size:44px;margin-top:40px;}
+.section_container {padding-top:50px;max-width:1000px;margin:0 auto;}
+
+.os_instructions {float:right;}
+.os_instructions a {margin-top:20px;display:block;
+	-webkit-border-radius: 6px;border-radius:6px;
+	background: rgb(69,72,77);
+	background: -moz-linear-gradient(top,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(69,72,77,1)), color-stop(100%,rgba(0,0,0,1)));
+	background: -webkit-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+	background: -o-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+	background: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 );
+	
+	padding:10px 10px;float:right;margin-right:10px;font-size:20px;
+	}
+.os_instructions a:active {
+	background: rgb(125,126,125);
+	background: -moz-linear-gradient(top,  rgba(125,126,125,1) 0%, rgba(14,14,14,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(125,126,125,1)), color-stop(100%,rgba(14,14,14,1)));
+	background: -webkit-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+	background: -o-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+	background: linear-gradient(to bottom,  rgba(125,126,125,1) 0%,rgba(14,14,14,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7d7e7d', endColorstr='#0e0e0e',GradientType=0 );
+	
+}
+</style>
+<style type="text/css" media="screen">
+
+/* iPhone 5 (portrait) -----------  */
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px)  and (orientation : portrait) {
+	* {line-height:normal;font-family: verdana, sans-serif !important;}
+	
+	#kb_logo {width:270px;height:94px;padding:5px 0;background-size:90%;margin-left:30px;}
+	.kb_section{width:90%;margin:20px auto;}
+	#kb_slide_1 {margin-top:0px;padding-bottom:0px;}
+	#kb_slide_1 h2 {font-size:75px;line-height:100px;margin:0px auto 100px;}
+	
+	#kb_hero_img {width:500px;height:500px;margin:0px auto 70px;}
+	
+	
+	a.cta {text-align:center;display:block;margin:0 auto;background:#145993;padding:43px 10px;width:580px;-webkit-border-radius: 12px;border-radius:12px;font-size:53px;color:#fff;text-shadow:none;text-decoration:none;}
+	
+	.section_container {padding-top:230px;}
+	
+	.headline {font-size:40px;padding:20px 0 20px 30px;margin:40px auto;-webkit-border-radius: 12px;border-radius:12px;}
+	.instructions {font-size:35px;}
+	
+	.os_instructions a {font-size:25px;margin-top:24px;padding:15px 20px;}
+	
+
+}
+
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px)  and (orientation : landscape) {
+	* {line-height:normal;font-family: 'Raleway', sans-serif !important;}
+	#kb_logo {width:270px;height:64px;padding:5px 0;}
+	.kb_section{width:90%;margin:30px auto;}
+	.section_container {margin:0;padding:0;}
+	#kb_slide_1 {margin-top:0px;padding-top:0px;}
+	#kb_slide_1 h2 {font-size:50px;margin:0px auto 50px;}
+	#kb_hero_img {width:300px;height:300px;margin:0px auto 20px;}
+	
+	a.cta {text-align:center;display:block;margin:0 auto;background:#145993;padding:43px 10px;width:580px;-webkit-border-radius: 12px;border-radius:12px;font-size:53px;color:#fff;text-shadow:none;text-decoration:none;}
+	
+	.section_container {padding-top:120px;}
+	
+	.headline {font-size:30px;padding:20px 0 20px 30px;margin:20px auto;-webkit-border-radius: 12px;border-radius:12px;}
+	.instructions {font-size:20px;}
+	
+	.os_instructions a {font-size:20px;padding:15px 30px;margin-top:15px;}
+}
+</style>
+<div class="wrap kb_wrap">
+	<div class="kb_container" data-role="main" class="ui-content">
+		<header id="kb_nav">
+			<nav id="kb_nav_cont">
+				<h1 id="kb_logo">Epocrates</h1>
+				<div class="os_instructions">
+					<a href="#android">Android Instructions</a>
+					<a href="#ios">iOS Instructions</a>
+				</div>
+				<div class="clear"></div>
+			</nav>
+		</header>
+		<div id="ios" class="section_container">
+			<section id="kb_slide_1" class="kb_sectionactive">
+				<h2>Setting up your Epocrates Secure Text Messaging (STM) App on your iPhone</h2>
+				<div id="kb_hero_img"></div>
+			</section>
+			<section id="kb_2" class="kb_section">
+				<div class="headline">Install the App</div>
+				
+				<div class="instructions">
+					<strong>1.</strong> 
+					Open safari on your iPhone device and enter the following url:
+					<br><br>
+					<a href="http://tinyurl.com/qck9bgk">http://tinyurl.com/qck9bgk</a>
+					<br><br>
+					<strong>2.</strong> 
+					The link will take you to a download page. <strong>Please select "Download"</strong>.  When the popup screen appears,
+					<br><br>
+					<strong>Tap "Install"</strong>.
+				</div>
+				<div class="ob_epoc_img1"></div>
+									
+			</section>
+			<section id="kb_3" class="kb_section">
+				<div class="instructions">
+					<strong>3.</strong> 
+					The STM app will begin to download. When the download is complete, tap on the STM icon on your device home screen.
+					<br><br>
+				</div>
+				<div class="ob_epoc_img2"></div>
+			</section>
+			<section id="kb_4" class="kb_section">
+				<div class="instructions">
+					<strong>4.</strong>
+					When the app opens, you will be asked to Login or Create an Account.
+					<br><br>
+					If you already have an Epocrates account,
+					<strong>tap "Login"</strong>.
+					<br><br>
+					If you do NOT have an Epocrates account,
+					<strong>tap "Create Account"</strong> and go to <a href="#kb_6">Step 6</a>.
+				</div>
+				<div class="ob_epoc_img3"></div>
+				
+				
+			</section>
+			<section id="kb_5" class="kb_section">
+				<div class="headline">Login</div>				
+				<div class="instructions">
+					<strong>5.</strong>
+					Enter the email and password for your Epocrates account and
+					<br><br>
+					<strong>tap "Login"</strong>.  
+					<br><br>
+					If you have forgotten your password, tap "Forgot Password?".
+					Proceed to Step 7.
+				</div>
+				<div class="ob_epoc_img4"></div>
+				
+				
+			</section>
+			<section id="kb_6" class="kb_section">
+				<div class="headline">Create an Account</div>				
+				<div class="instructions">
+					<strong>6.</strong> 
+					To create an account, enter the information requested and 
+					<br><br>
+					<strong>tap "Next"</strong>. 
+					When you have completed the information on the screen and reviewed the Terms of Service, 
+					<br><br>
+					<strong>tap "Join"</strong>.
+				</div>
+				<div class="ob_epoc_img5"></div>
+				
+				
+			</section>
+			<section id="kb_7" class="kb_section">
+				<div class="headline">Verify Your Identity</div>				
+				<div class="instructions">
+					<strong>7.</strong> 
+					We have a two part verification to ensure that you are sending and receiving messages to/from the right person: 
+					<br><br>
+					Part 1: Physician verification<br>
+					Part 2: Identity verification.<br><Br>
+					If you already completed our physician verification, proceed to Step 8.
+					Otherwise, please enter the information requested and <strong>tap "Next"</strong>.
+					
+				</div>
+				<div class="ob_epoc_img6"></div>
+				
+				
+			</section>
+			<section id="kb_8" class="kb_section">
+				<div class="instructions">
+					<strong>8.</strong> 
+Our identity verification service is provided by LexisNexis. You will be asked to enter your home address and optionally, the last four digits of your social security number. After providing this information, you will be asked 4 questions to confirm your identity. You must answer the questions correctly in order to proceed.
+					
+				</div>
+				<div class="ob_epoc_and_img11a"></div>
+				
+				
+		
+			</section>
+			<section id="kb_9" class="kb_section">
+				<div class="headline">Phone Settings</div>
+				<div class="instructions">
+					<strong>9.</strong> 
+					Please enter the phone number associated with your mobile device and tap "Continue".  
+					<br><br>
+					NOTE:  We will not share your mobile number with anyone and we will not use it for advertising or marketing activities.
+				</div>
+				<div class="ob_epoc_img8"></div>
+				<div class="instructions">
+					Once you enter your mobile number, you will receive a text message containing a confirmation code.  
+					<br><br>
+					Enter the code and <strong>tap "Confirm"</strong>.
+				</div>
+				<div class="ob_epoc_img8b"></div>	
+				
+							
+			</section>
+			<section id="kb_10" class="kb_section">
+				<div class="instructions">
+					<strong>10.</strong> 
+					For security purposes, please create a four-digit passcode.  After you have created the passcode, please enter it a second time to confirm.
+					<br><br>
+					<strong>Enter a code that you will remember.</strong>
+				</div>
+				<div class="ob_epoc_img9"></div>
+				
+				
+			</section>
+			<section id="kb_11" class="kb_section">
+				<div class="instructions">
+					<strong>11.</strong> 
+					In order to make it easier for you to find colleagues who may also be using STM, you will be asked if you would like to sync your contacts.  If you answer "Yes", we will automatically make them your "Colleagues".
+					<br><br>
+					<strong>Congratulations!! You can now start using the STM application.</strong>
+
+				</div>
+				<div class="ob_epoc_img10"></div>
+				
+				
+			</section>
+			<div class="clear"></div>
+		</div>
+		<div id="android" class="section_container">
+			<section id="kb_slide_1" class="kb_sectionactive">
+				<h2>Setting up your Epocrates Secure Text Messaging (STM) App on your Android Device</h2>
+				<div id="kb_hero_img"></div>
+			</section>
+			<section id="ab_" class="kb_section">
+				<div class="headline">Important Note</div>
+				<div class="instructions">
+					<strong>1.</strong> 
+					Please change your Android settings before starting the installation.						
+					<br><br>
+					You must allow installation of apps from unknown sources on your device.
+					<br><br>
+					<strong>Go to "Settings" -> "Security".
+					Select "Unknown Sources".<br><br>
+					This must be selected in order to install the application.</strong>
+				</div>
+				<div class="ob_epoc_and_img1"></div>
+				
+			</section>
+			
+			
+			<section id="ab_2" class="kb_section">
+				<div class="headline">Install the App</div>
+				<div class="instructions">
+					
+					<strong>2.</strong> 
+					Open a web browser on your device and enter the following url:
+					<br><br>
+					<a href="http://tinyurl.com/qck9bgk">http://tinyurl.com/qck9bgk</a>
+				</div>
+				<div class="ob_epoc_and_img2"></div>
+									
+			</section>
+			
+			
+			<section id="ab_3" class="kb_section">
+				<div class="instructions">
+					<strong>3.</strong> 
+					A pop-up will appear confirming that you would like to download the application.
+					<br><br>
+					<strong>Tap "OK"</strong>.
+				</div>
+				<div class="ob_epoc_and_img3"></div>
+			</section>
+			
+			
+			<section id="ab_4" class="kb_section">
+				<div class="instructions">
+					<strong>4.</strong>
+					The STM app will begin to download.
+					<br><br>
+					When the download is complete, go to your notifications screen and the row for the STM app.
+				</div>
+				<div class="ob_epoc_and_img4"></div>
+				
+				
+			</section>
+			<style type="text/css" media="screen">
+
+				.ob_epoc_and_img1 {width:551px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img1.png) no-repeat center center;margin:0 auto;}
+
+
+				.ob_epoc_and_img2 {width:297px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img2.png) no-repeat center center;margin:0 auto;}
+				.ob_epoc_and_img3 {width:297px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img3.png) no-repeat center center;margin:0 auto;}
+				.ob_epoc_and_img4 {width:297px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img4.png) no-repeat center center;margin:0 auto;}
+				.ob_epoc_and_img5 {width:297px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img5.png) no-repeat center center;margin:0 auto;}
+				.ob_epoc_and_img6 {width:551px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img6.png) no-repeat center center;margin:0 auto;}
+				.ob_epoc_and_img7 {width:283px;height:400px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img7.png) no-repeat center center;margin:0 auto;}
+				.ob_epoc_and_img8 {width:283px;height:400px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img8.png) no-repeat center center;margin:0 auto;}
+				.ob_epoc_and_img9 {width:551px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img9.png) no-repeat center center;margin:0 auto;}
+
+				.ob_epoc_and_img10 {width:283px;height:400px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img10.png) no-repeat center center;margin:0 auto;}
+				
+				.ob_epoc_and_img11 {width:297px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img11.png) no-repeat center center;margin:0 auto;}
+				
+				.ob_epoc_and_img11a {width:551px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img11a.png) no-repeat center center;margin:0 auto;}
+				
+				.ob_epoc_and_img12 {width:551px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img12.png) no-repeat center center;margin:0 auto;}
+
+				.ob_epoc_and_img13 {width:297px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img13.png) no-repeat center center;margin:0 auto;}
+				.ob_epoc_and_img14 {width:297px;height:286px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_and_img14.png) no-repeat center center;margin:0 auto;}
+
+				.ob_epoc_and_img11b {width:507px;height:389px;background:url(http://www.epocrates.com/sites/default/files/images/ob_epoc_img6.png) no-repeat 0px -33px;margin:0 auto;}
+				
+
+			</style>
+			
+			<section id="ab_5" class="kb_section">
+				<div class="headline">Login</div>
+				<div class="instructions">
+					<strong>5.</strong>
+					You will be prompted to install the application.
+					We will not access any information on your device without prompting you and getting your explicit permission.
+					<br><br>
+					<strong>Click "Next" to begin the installation</strong>.
+
+				</div>
+				<div class="ob_epoc_and_img5"></div>
+				
+				
+			</section>
+			<section id="ab_6" class="kb_section">
+				<div class="instructions">
+					<strong>6.</strong> 
+					When the installation is finished, you can tap "Open" to launch the application, or find the STM icon in your application tray or on the home screen.
+				</div>
+				<div class="ob_epoc_and_img6"></div>
+				
+				
+			</section>
+			<section id="ab_7" class="kb_section">
+				
+				<div class="instructions">
+					<strong>7.</strong> 
+					When the app opens, you will be asked to Login or Create an Account.  
+					<br><br>
+					If you already have an Epocrates account,
+					<strong>tap "Login"</strong>.
+					<br><br>
+					If you do NOT have an Epocrates account,
+					<strong>tap "Create Account" and go to <a href="#ab_9">Step 9</a></strong>.
+					
+				</div>
+				<div class="ob_epoc_and_img7"></div>
+				
+				
+			</section>
+			<section id="ab_8" class="kb_section">
+				<div class="headline">Login</div>
+				
+				<div class="instructions">
+					<strong>8.</strong> 
+					Enter the email and password for your Epocrates account and tap "Login".  If you have forgotten your password, tap "Forgot your password".
+					<br><br>
+					Proceed to Step 10.
+					
+				</div>
+				<div class="ob_epoc_and_img8"></div>
+				
+				
+			</section>
+			<section id="ab_9" class="kb_section">
+				<div class="headline">Create an Account</div>
+				<div class="instructions">
+					<strong>9.</strong> 
+					To create an account, enter the information requested and <strong>tap "Next"</strong>.  
+					<br><br>
+					When you have completed the information on the screen and reviewed the Terms of Service, <strong>tap "Join"</strong>.
+				</div>
+				<div class="ob_epoc_and_img9"></div>	
+				
+							
+			</section>
+			<section id="ab_10" class="kb_section">
+				<div class="headline">Verify Your Identity</div>
+				
+				<div class="instructions">
+					<strong>10.</strong> 
+					We have a two part verification to ensure that you are sending and receiving messages to/from the right person: 
+					<br><br>
+					Part 1: Physician verification<br>
+					Part 2: Identity verification<br><br>
+					If you already completed our physician verification, proceed to <a href="ab_11">Step 11</a>.
+					<br><br>
+					Otherwise, please enter the information requested and tap "Next".
+					<br>
+					Your information is not stored by Epocrates and will not be shared with anyone
+					<br><br>
+					<strong>Enter it and tap "Next"</strong>.
+				</div>
+				
+				<div class="ob_epoc_and_img11b"></div>
+									
+			</section>
+			
+			
+			<section id="ab_11" class="kb_section">
+				<div class="instructions">
+					<strong>11.</strong> 
+					Our identity verification service is provided by LexisNexis. You will be asked to enter your home address and optionally, the last four digits of your social security number. After providing this information, you will be asked 4 questions to confirm your identity. You must answer the questions correctly in order to proceed.
+					<br>
+				</div>
+				<div class="ob_epoc_and_img11a"></div>
+				
+			</section>
+			
+			
+			
+			
+			<section id="ab_12" class="kb_section">
+				<div class="instructions">
+					<strong>12.</strong> 
+					Please enter the phone number associated with your mobile device and <strong>tap "Continue"</strong>.
+					<br><br>
+					NOTE:  We will not share your mobile number with anyone and we will not use it for advertising or marketing activities.
+					<br><br>
+					Once you enter your mobile number, you will receive a text message containing a confirmation code.  <strong>Enter the code and tap "Confirm"</strong>.
+
+					
+				</div>
+				<div class="ob_epoc_and_img12"></div>
+				
+			</section>
+			<section id="ab_13" class="kb_section">
+				<div class="instructions">
+					<strong>13.</strong> 
+					For security purposes, please create a four-digit passcode.  After you have created the passcode, please enter it a second time to confirm.  
+					<br><br>
+					<strong>Enter a code that you will remember</strong>.
+					
+				</div>
+				<div class="ob_epoc_and_img13"></div>
+				
+			</section>
+			<section id="ab_14" class="kb_section">
+				<div class="instructions">
+					<strong>14.</strong> 
+					In order to make it easier for you to find colleagues who may also be using STM, you will be asked if you would like to sync your contacts.  If you answer "Yes", we will automatically make them your "Colleagues".
+					<br><br>
+					<strong>Congratulations!! You can now start using the STM application.</strong>
+				</div>
+				<div class="ob_epoc_and_img14"></div>
+				
+			</section>
+			<div class="clear"></div>
+			
+		</div>
+
+	</div>
+	<div class="clear"></div>
+</div>
